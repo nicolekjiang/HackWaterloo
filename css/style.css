@@ -371,3 +371,26 @@ body footer p {
   padding: 20px;
   font-size: 12px;
 }
+@media (max-width: 450px) {
+  body section {
+    padding: 5% 2%;
+  }
+  body .cta {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 16px;
+  }
+  body .content,
+  body .visual {
+    width: 90% !important;
+    float: none;
+    margin: 0 auto;
+    display: block;
+  }
+  body section.faq {
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 5%;
+    padding: right: 5%;
+  }
+}

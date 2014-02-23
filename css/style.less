@@ -186,7 +186,7 @@ body{
 			margin-bottom: 15px;
 			font-size: 14px;
 		}
-	}
+	}//faq
 	footer{
 		.block;
 		background: @bg;
@@ -197,4 +197,29 @@ body{
 			font-size: 12px;
 		}
 	}//footer
+}//body
+
+@media(max-width: 450px){
+	body{
+		section{
+			padding: 5% 2%;
+		}
+		.cta{
+			padding-left: 20px;
+			padding-right: 20px;
+			font-size: 16px;
+		}//cta
+		.content, .visual{
+			width: 90% !important;
+			float: none;
+			margin: 0 auto;
+			.block;
+		}
+		section.faq{
+			width: 100%;
+			margin: 0 auto;
+			padding-left: 5%;
+			padding: right: 5%;
+		}
+	}//body
 }
