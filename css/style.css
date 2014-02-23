@@ -230,6 +230,10 @@ img {
   -ms-transition: all 0s ease 0s;
   transition: all 0s ease 0s;
 }
+body .cta {
+  margin: 20px auto;
+  text-align: center;
+}
 body section {
   display: block;
   margin: 0 auto;
@@ -238,6 +242,9 @@ body section {
 body section.header {
   text-align: center;
   background: #1e1e1e;
+  color: #acacac;
+  padding-bottom: 130px;
+  margin-bottom: 0px;
 }
 body section.header h1 {
   margin: 100px auto 20px auto;
@@ -246,4 +253,21 @@ body section.header h1 {
 body section.header .header_loc,
 body section.header .header_time {
   margin: 10px auto;
+}
+body section.whyhack {
+  display: block;
+  background: #f3f2eb;
+  height: 500px;
+}
+body section.schedule {
+  height: 500px;
+}
+body section.sponsors {
+  background: #f3f2ee;
+  height: 500px;
+}
+body section.faq {
+  background: #424242;
+  color: #acacac;
+  height: 500px;
 }

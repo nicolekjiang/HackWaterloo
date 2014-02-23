@@ -54,8 +54,18 @@
 //palatte: 
 @bg: #1e1e1e;
 @yellow: rgb(255, 221, 84);
+@text: rgb(172, 172, 172);
+@cream: rgb(243, 242, 235);
+@gray: rgb(66, 66, 66);
+@slate: rgb(243, 242, 238);
+@slate2: rgb(189, 182, 182);
+
 
 body{
+	.cta{
+		margin: 20px auto;
+		.center;
+	}
 	section{
 		.block;
 		margin: 0 auto;
@@ -65,6 +75,9 @@ body{
 	section.header{
 		.center;
 		background:  @bg;
+		color: @text;
+		padding-bottom: 130px;
+		margin-bottom: 0px;
 		h1{
 			margin: 100px auto 20px auto;
 			color: @yellow;
@@ -72,8 +85,24 @@ body{
 		.header_loc, .header_time{
 			margin: 10px auto;
 		}//header_loc
-
-	}//header
+	}//headers
+	section.whyhack{
+		.block;
+		background: @cream;
+		height: 500px;
+	}
+	section.schedule{
+		height: 500px;
+	}
+	section.sponsors{
+		background: @slate;
+		height: 500px;
+	}
+	section.faq{
+		background: @gray;
+		color: @text;
+		height: 500px;
+	}
 
 
 
