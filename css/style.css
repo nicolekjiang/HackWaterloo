@@ -233,11 +233,33 @@ img {
 body .cta {
   margin: 20px auto;
   text-align: center;
+  border: 3px solid #fff;
+  border-radius: 5px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 500;
+  color: #fff;
+  -webkit-transition: all 0.25s ease 0s;
+  -moz-transition: all 0.25s ease 0s;
+  -o-transition: all 0.25s ease 0s;
+  -ms-transition: all 0.25s ease 0s;
+  transition: all 0.25s ease 0s;
+  background: transparent;
+}
+body .cta:hover {
+  background: #ffdd54;
+  border-color: #eecc43;
+  color: #1e1e1e;
 }
 body section {
   display: block;
   margin: 0 auto;
-  padding: 2% 10%;
+  padding: 5% 10%;
 }
 body section.header {
   text-align: center;
@@ -257,17 +279,27 @@ body section.header .header_time {
 body section.whyhack {
   display: block;
   background: #f3f2eb;
-  height: 500px;
+  min-height: 400px;
 }
 body section.schedule {
-  height: 500px;
+  min-height: 400px;
 }
 body section.sponsors {
   background: #f3f2ee;
-  height: 500px;
+  min-height: 400px;
 }
 body section.faq {
   background: #424242;
   color: #acacac;
-  height: 500px;
+  min-height: 400px;
+}
+body footer {
+  display: block;
+  background: #1e1e1e;
+  color: #f3f2ee;
+  text-align: center;
+}
+body footer p {
+  padding: 20px;
+  font-weight: bold;
 }

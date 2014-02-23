@@ -65,12 +65,29 @@ body{
 	.cta{
 		margin: 20px auto;
 		.center;
+		border: 3px solid #fff;
+		border-radius: 5px;
+		padding-top: 15px;
+		padding-bottom: 15px;
+		padding-left: 25px;
+		padding-right: 25px;
+		font-size: 18px;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+		font-weight: 500;
+		color: #fff;
+		.fasttransition;
+		background: transparent;
+	}
+	.cta:hover{
+		background: @yellow;
+		border-color: @yellow - #111111;
+		color: @bg;
 	}
 	section{
 		.block;
 		margin: 0 auto;
-		padding: 2% 10%;
-
+		padding: 5% 10%;
 	}
 	section.header{
 		.center;
@@ -89,19 +106,29 @@ body{
 	section.whyhack{
 		.block;
 		background: @cream;
-		height: 500px;
+		min-height: 400px;
 	}
 	section.schedule{
-		height: 500px;
+		min-height: 400px;
 	}
 	section.sponsors{
 		background: @slate;
-		height: 500px;
+		min-height: 400px;
 	}
 	section.faq{
 		background: @gray;
 		color: @text;
-		height: 500px;
+		min-height: 400px;
+	}
+	footer{
+		.block;
+		background: @bg;
+		color: @slate;
+		.center;
+		p{
+			padding: 20px;
+			font-weight: bold;
+		}
 	}
 
 
