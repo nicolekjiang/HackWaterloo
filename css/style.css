@@ -270,6 +270,30 @@ body .cta:hover {
   border-color: #ffdd54;
   color: #ffdd54;
 }
+body .fixed {
+  position: fixed;
+}
+body nav {
+  text-align: center;
+  position: fixed;
+  right: 0px;
+  background: rgba(255, 255, 255, 0.84);
+  border-bottom: 1px solid #b8b8b8;
+  padding: 10px;
+  width: 100%;
+  color: #cacaca;
+}
+body nav ul {
+  float: right;
+}
+body nav ul li a {
+  color: #444444;
+  text-transform: uppercase;
+}
+body nav ul li a:hover {
+  color: #424242;
+  background-color: transparent;
+}
 body section {
   display: block;
   margin: 0 auto;

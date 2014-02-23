@@ -29,15 +29,31 @@
                    }, 1200);
                });
             });
+            $(document).ready(function(){
+	            $('nav').hide();
+	            /* PINNING NAV*/
+				$(window).scroll(function(){
+					$window = $(window);
+					if($(window).scrollTop()>525)
+					{
+						$('.nav').fadeIn("fast");
+					}
+					else{
+						$('.nav').fadeOut("fast");
+					}
+				});
+	        });
+            
         </script> 
 	</head>
 	<body>
-		<nav>
-			<ul class="nav nav-pills navbar-right">
+		<nav class="nav  navbar-right">
+			<ul class="nav nav-pills">
 				<li><a class="nav-item" href="#whyhack">Whyhack</a></li>
 				<li><a class="nav-item" href="#schedule">Schedule</a></li>
 				<li><a class="nav-item" href="#sponsor">Sponsor</a></li>
 				<li><a class="nav-item" href="#faq">FAQ</a></li>
+				<li><a class="nav-item" href="#faq">Contact</a></li>
 			</ul>
 		</nav>
 		<section class="header jumbotron">
@@ -102,4 +118,9 @@
 	<footer>
 		<p>All rights reserved by Hack Waterloo 2014</p>
 	</footer>
+	<script type="text/javascript">
+
+	</script>
+
+
 </html>
