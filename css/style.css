@@ -236,7 +236,7 @@ h3 {
   font-size: 30px;
 }
 h4 {
-  font-size: 20px;
+  font-size: 18px;
 }
 p {
   font-family: 'Raleway' sans-serif;
@@ -347,17 +347,23 @@ body section.whyhack .cta {
   color: #424242;
   border-color: #424242;
 }
-body section.schedule {
+body section.rules {
   min-height: 400px;
+}
+body section.judging {
+  min-height: 400px;
+  background: #f3f2ee;
 }
 body section.sponsors {
   background: #f3f2ee;
   min-height: 400px;
 }
 body section.faq {
-  background: #424242;
-  color: #cacaca;
   min-height: 400px;
+}
+body section.faq p {
+  margin-bottom: 15px;
+  font-size: 14px;
 }
 body footer {
   display: block;
