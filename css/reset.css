@@ -1,6 +1,6 @@
-@import url(http://fonts.googleapis.com/css?family=Raleway:100,200);
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 @font-face {
-  font-family: 'Raleway' sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 400;
 }
@@ -90,10 +90,10 @@ input {
   margin: 0;
   padding: 0;
   border: 0;
+  font-family: 'Montserrat', sans-serif;
   font-size: 14px;
   font: inherit;
   vertical-align: baseline;
-  font-family: 'Raleway', sans-serif;
   text-decoration: none;
   outline: none;
   backface-visibility: hidden;
@@ -179,7 +179,6 @@ a {
 body,
 html {
   background: white;
-  font-family: 'Raleway' sans-serif;
 }
 img {
   -webkit-touch-callout: none;
