@@ -350,15 +350,11 @@ body section.whyhack .cta {
 body section.rules {
   min-height: 400px;
 }
-body section.judging {
-  min-height: 400px;
-  background: #f3f2ee;
-}
 body section.sponsors {
-  background: #f3f2ee;
   min-height: 400px;
 }
 body section.faq {
+  background: #f3f2ee;
   min-height: 400px;
 }
 body section.faq p {
