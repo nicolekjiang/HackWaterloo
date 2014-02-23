@@ -289,10 +289,20 @@ body nav ul {
 body nav ul li a {
   color: #444444;
   text-transform: uppercase;
+  border: 3px solid transparent;
+  letter-spacing: 1px;
+  font-size: 12px;
 }
 body nav ul li a:hover {
   color: #424242;
-  background-color: transparent;
+  background-color: transparent !important;
+  border: 3px solid rgba(66, 66, 66, 0.4);
+  border-radius: 5px;
+  -webkit-transition: all 0.7s ease 0s;
+  -moz-transition: all 0.7s ease 0s;
+  -o-transition: all 0.7s ease 0s;
+  -ms-transition: all 0.7s ease 0s;
+  transition: all 0.7s ease 0s;
 }
 body section {
   display: block;
@@ -313,7 +323,7 @@ body section h3 {
 }
 body section.header {
   text-align: center;
-  background: #1e1e1e url('/img/bg.png') center center no-repeat;
+  background: #1e1e1e url('../img/bg.png') center center no-repeat;
   background-size: cover;
   border-bottom: 1px solid #424242;
   color: #cacaca;

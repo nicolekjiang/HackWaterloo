@@ -1,6 +1,5 @@
 @import url('/reset.less');
 
-
 .block{
 	display: block;
 }
@@ -117,13 +116,19 @@ body{
 				a{
 					color: #444444;
 					text-transform: uppercase;
+					border: 3px solid transparent;
+					letter-spacing: 1px;
+					font-size: 12px;
 				}
 				a:hover{
 					color: @gray;
-					background-color: transparent;
+					background-color: transparent !important;
+					border: 3px solid rgba(66, 66, 66, 0.4);
+					border-radius: 5px;
+					.transition;
 				}
-			}
-		}
+			}//li
+		}//ul
 	}
 	section{
 		.block;
@@ -137,17 +142,15 @@ body{
 			width: 25%;
 			img{
 				width: 100%;
-
 			}
 		}//visual
 		h3{
 			margin-bottom: 25px;
 		}
-
-	}
+	}//section
 	section.header{
 		.center;
-		background:  @bg url('/img/bg.png') center center no-repeat;
+		background:  @bg url('../img/bg.png') center center no-repeat;
 		background-size: cover;
 		border-bottom: 1px solid @gray;
 		color: @text;
@@ -191,13 +194,5 @@ body{
 			padding: 20px;
 			font-size: 12px;
 		}
-	}
-
-
-
-
-
-
-
-
+	}//footer
 }
