@@ -235,26 +235,26 @@ body .cta {
   text-align: center;
   border: 3px solid #fff;
   border-radius: 5px;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  padding-left: 25px;
-  padding-right: 25px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 45px;
+  padding-right: 45px;
   font-size: 18px;
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: 500;
   color: #fff;
-  -webkit-transition: all 0.25s ease 0s;
-  -moz-transition: all 0.25s ease 0s;
-  -o-transition: all 0.25s ease 0s;
-  -ms-transition: all 0.25s ease 0s;
-  transition: all 0.25s ease 0s;
+  -webkit-transition: all 0.7s ease 0s;
+  -moz-transition: all 0.7s ease 0s;
+  -o-transition: all 0.7s ease 0s;
+  -ms-transition: all 0.7s ease 0s;
+  transition: all 0.7s ease 0s;
   background: transparent;
 }
 body .cta:hover {
-  background: #ffdd54;
-  border-color: #eecc43;
-  color: #1e1e1e;
+  background: transparent;
+  border-color: #ffdd54;
+  color: #ffdd54;
 }
 body section {
   display: block;
@@ -263,8 +263,10 @@ body section {
 }
 body section.header {
   text-align: center;
-  background: #1e1e1e;
-  color: #acacac;
+  background: #1e1e1e url('/img/bg.png') center center no-repeat;
+  background-size: cover;
+  border-bottom: 1px solid #424242;
+  color: #cacaca;
   padding-bottom: 130px;
   margin-bottom: 0px;
 }
@@ -290,7 +292,7 @@ body section.sponsors {
 }
 body section.faq {
   background: #424242;
-  color: #acacac;
+  color: #cacaca;
   min-height: 400px;
 }
 body footer {
@@ -301,5 +303,5 @@ body footer {
 }
 body footer p {
   padding: 20px;
-  font-weight: bold;
+  font-size: 12px;
 }

@@ -54,7 +54,7 @@
 //palatte: 
 @bg: #1e1e1e;
 @yellow: rgb(255, 221, 84);
-@text: rgb(172, 172, 172);
+@text: #CACACA;
 @cream: rgb(243, 242, 235);
 @gray: rgb(66, 66, 66);
 @slate: rgb(243, 242, 238);
@@ -67,22 +67,22 @@ body{
 		.center;
 		border: 3px solid #fff;
 		border-radius: 5px;
-		padding-top: 15px;
-		padding-bottom: 15px;
-		padding-left: 25px;
-		padding-right: 25px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		padding-left: 45px;
+		padding-right: 45px;
 		font-size: 18px;
 		text-transform: uppercase;
 		letter-spacing: 2px;
 		font-weight: 500;
 		color: #fff;
-		.fasttransition;
+		.transition;
 		background: transparent;
 	}
 	.cta:hover{
-		background: @yellow;
-		border-color: @yellow - #111111;
-		color: @bg;
+		background: transparent;
+		border-color: @yellow;
+		color: @yellow;
 	}
 	section{
 		.block;
@@ -91,7 +91,9 @@ body{
 	}
 	section.header{
 		.center;
-		background:  @bg;
+		background:  @bg url('/img/bg.png') center center no-repeat;
+		background-size: cover;
+		border-bottom: 1px solid @gray;
 		color: @text;
 		padding-bottom: 130px;
 		margin-bottom: 0px;
@@ -127,7 +129,7 @@ body{
 		.center;
 		p{
 			padding: 20px;
-			font-weight: bold;
+			font-size: 12px;
 		}
 	}
 
