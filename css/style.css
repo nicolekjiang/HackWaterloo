@@ -247,7 +247,7 @@ body {
 body .cta {
   margin: 20px auto;
   text-align: center;
-  border: 3px solid #fff;
+  border: 3px solid #ffdd54;
   border-radius: 5px;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -257,18 +257,18 @@ body .cta {
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: 500;
-  color: #fff;
-  -webkit-transition: all 0.7s ease 0s;
-  -moz-transition: all 0.7s ease 0s;
-  -o-transition: all 0.7s ease 0s;
-  -ms-transition: all 0.7s ease 0s;
-  transition: all 0.7s ease 0s;
+  color: #ffdd54;
+  -webkit-transition: all 0.25s ease 0s;
+  -moz-transition: all 0.25s ease 0s;
+  -o-transition: all 0.25s ease 0s;
+  -ms-transition: all 0.25s ease 0s;
+  transition: all 0.25s ease 0s;
   background: transparent;
 }
 body .cta:hover {
-  background: transparent;
-  border-color: #ffdd54;
-  color: #ffdd54;
+  background: #ffdd54;
+  border-color: #eecc43;
+  color: black;
 }
 body .fixed {
   position: fixed;
@@ -282,6 +282,7 @@ body nav {
   padding: 10px;
   width: 100%;
   color: #cacaca;
+  z-index: 50;
 }
 body nav ul {
   float: right;
@@ -347,19 +348,28 @@ body section.whyhack .cta {
   color: #424242;
   border-color: #424242;
 }
+body section.whyhack .cta:hover {
+  background: transparent;
+}
 body section.rules {
   min-height: 400px;
 }
 body section.sponsors {
   min-height: 400px;
+  border-top: 1px solid #f3f2ee;
+}
+body section.vm {
+  background: #f3f2ee;
 }
 body section.faq {
-  background: #f3f2ee;
   min-height: 400px;
 }
 body section.faq p {
   margin-bottom: 15px;
   font-size: 14px;
+}
+body section.contact {
+  background: #f3f2eb;
 }
 body footer {
   display: block;
