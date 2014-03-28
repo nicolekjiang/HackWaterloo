@@ -361,6 +361,10 @@ body section.sponsors {
 body section.vm {
   background: #f3f2ee;
 }
+body section.vm p {
+  margin-bottom: 15px;
+  font-size: 14px;
+}
 body section.faq {
   min-height: 400px;
 }
